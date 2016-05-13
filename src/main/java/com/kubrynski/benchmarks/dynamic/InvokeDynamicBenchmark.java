@@ -2,12 +2,10 @@ package com.kubrynski.benchmarks.dynamic;
 
 import java.util.concurrent.TimeUnit;
 
-import com.kubrynski.temp.Invoker;
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.dynamic.loading.ClassLoadingStrategy;
 import net.bytebuddy.implementation.Implementation;
 import net.bytebuddy.implementation.InvokeDynamic;
-import net.bytebuddy.implementation.MethodCall;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Fork;
